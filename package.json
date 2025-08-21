@@ -1,24 +1,35 @@
 {
-  "name": "ashishbhargav.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@once-ui-system/magic-portfolio",
+  "version": "2.2.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "export": "next export",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ashbhargav/ashishbhargav.github.io.git"
+  "dependencies": {
+    "@mdx-js/loader": "^3.1.0",
+    "@next/mdx": "^15.3.1",
+    "@once-ui-system/core": "^1.2.4",
+    "classnames": "^2.5.1",
+    "cookie": "^1.0.2",
+    "gray-matter": "^4.0.3",
+    "next": "^15.3.1",
+    "next-mdx-remote": "^5.0.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-icons": "^5.5.0",
+    "react-masonry-css": "^1.0.16",
+    "sass": "^1.86.3"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ashbhargav/ashishbhargav.github.io/issues"
-  },
-  "homepage": "https://github.com/ashbhargav/ashishbhargav.github.io#readme",
   "devDependencies": {
-    "tailwindcss": "^4.1.8"
+    "@types/cookie": "^0.6.0",
+    "@types/node": "^20.17.30",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.25.0",
+    "typescript": "^5.8.3",
+    "tzdata": "^1.0.44"
   }
 }
