@@ -2,14 +2,14 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Logo } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Ashish Bhargav",
+  lastName: "Gampa",
+  name: `Ashish`,
+  role: "Devops/Cloud Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "ashishbhargavgampa9@gmail.com",
+  location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -26,21 +26,13 @@ const newsletter: Newsletter = {
 const social: Social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
-  {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
-  },
+
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/bhargav-ashish/",
   },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-  },
+
   {
     name: "Email",
     icon: "email",
@@ -54,7 +46,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building bridges between Operations and code</>,
   featured: {
     display: true,
     title: (
@@ -98,10 +90,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for
-        transforming complex challenges into simple, elegant design solutions.
-        Her work spans digital interfaces, interactive experiences, and the
-        convergence of design and technology.
+        A  DevOps/Cloud Engineer with over 5 years of experience in designing, automating, and optimizing scalable
+cloud infrastructure and CI/CD pipelines. Adept at leveraging AWS, Azure, and containerization technologies to enhance
+system reliability, streamline deployments, and ensure seamless integration of cloud-based solutions.
       </>
     ),
   },
@@ -110,7 +101,7 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
+        company: "Lockeed Martin",
         timeframe: "2022 - Present",
         role: "Senior Design Engineer",
         achievements: [
