@@ -17,8 +17,8 @@ const newsletter: Newsletter = {
   title: <>Subscribe to {person.name}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the
-      intersection of creativity and engineering.
+      I design, automate, and optimize scalable 
+      cloud infrastructure to enhance system reliability and streamline deployments.
     </>
   ),
 };
@@ -58,7 +58,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
+      I'm Ashish, a DevOps/Cloud Engineer at{"Lockeed Martin"}
       <Logo
         icon="/trademarks/wordmark-dark.svg"
         style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
@@ -103,39 +103,49 @@ system reliability, streamline deployments, and ensure seamless integration of c
       {
         company: "Lockeed Martin",
         timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        role: "Azure DevOps Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20%
-            increase in user engagement and 30% faster load times.
+            Architected the migration of on-prem applications to Azure, reducing infrastructure costs by 25% and increasing application
+scalability to handle a 40% increase in user traffic.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows,
-            enabling designers to iterate 50% faster.
+            Cut deployment time by 50% by building Terraform templates to automate the provisioning of V-Nets, VM Scale Sets, and
+Load Balancers.
+          </>,
+          <>
+             Engineered a zero-downtime deployment strategy for microservices on AKS using Azure DevOps, achieving 99.99% uptime
+and eliminating manual rollback incidents.
+• Implemented a robust disaster recovery plan using Azure Recovery Vault and automated backups, reducing potential
+recovery time (RTO) from 12 hours to under 1 hour.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            alt: "MIgration",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "T Rowe Price",
+        timeframe: "Nov 2022 - Apr 2024",
+        role: "AAWS DevOps Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple
-            platforms, improving design consistency by 40%.
+           Decreased cloud spend by over $15,000/month by creating Ansible Playbooks in Jenkins to automate the start/stop schedule
+for non-production EC2 and RDS resources.
           </>,
           <>
-            Led a cross-functional team to launch a new product line,
-            contributing to a 15% increase in overall company revenue.
+            Reduced environment provisioning time from 3 days to 2 hours by developing a comprehensive Infrastructure as Code
+framework using CloudFormation and Python scripts.
+• Increased application fault tolerance and availability to 99.95% by deploying and managing EC2 instances behind an Elastic
+Load Balancer (ELB) with auto-scaling groups.
+• Automated the deployment and testing of 12+ applications by establishing a full CI/CD pipeline using Docker, GitHub, and
+AWS services, resulting in a 75% reduction in manual deployment errors.
           </>,
         ],
         images: [],
@@ -144,16 +154,13 @@ system reliability, streamline deployments, and ensure seamless integration of c
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+        name: "University of Maryland Baltimore County",
+        description: <>Studied Information Systems.</>,
+      }
+  
     ],
   },
   technical: {
